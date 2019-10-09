@@ -2309,6 +2309,29 @@ input, select, textarea {
 
 	}
 
+/* Skill  */
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    width: 50%;
+  }
+
+  .skill-desc {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .fas, .fab {
+    color: turquoise;
+  }
+
 /* Icon */
 
 	.icon {
